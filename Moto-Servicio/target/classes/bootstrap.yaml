@@ -1,0 +1,23 @@
+spring:
+ cloud:
+  config:
+   enabled: true
+   uri: http://localhost:8081
+ application:
+  name: moto-service
+ jpa:
+  properties:
+   hibernate:
+    ddl-auto: update
+    jdbc:
+     lob: 
+      non_contextual_creation: true
+  database: POSTGRESQL
+  show-sql: true
+ datasource:
+  driver-class-name: org.postgresql.Driver
+  url: jdbc:postgresql://localhost/Moto_Servicio
+  username: postgres
+  password: user  
+  
+
