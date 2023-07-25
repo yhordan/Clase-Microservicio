@@ -1,12 +1,10 @@
-server:
- port: 8001
 spring:
  cloud:
   config:
    enabled: true
    uri: http://localhost:8081
  application:
-  name: user-service
+  name: Usuario-Servicio
  jpa:
   properties:
    hibernate:
