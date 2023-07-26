@@ -1051,3 +1051,6 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact io.netty:nett
 2023-07-25 16:32:36,344 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2023-07-25 16:32:36,345 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2023-07-25 16:32:36,348 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\51966\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\eureka-service\src\test\resources
+2023-07-25 19:11:29,622 [Worker-137: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-25 19:11:29,623 [Worker-137: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-07-25 19:11:29,629 [Worker-137: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\51966\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\Usuario-Servicio\src\test\resources

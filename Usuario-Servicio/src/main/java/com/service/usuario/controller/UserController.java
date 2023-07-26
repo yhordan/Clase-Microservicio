@@ -33,6 +33,7 @@ public class UserController {
 	@GetMapping("/listar")
 	public ResponseEntity<List<Usuario>> listarUsuario(){
 		List<Usuario> lista = userService.listar();
+		System.out.println("Holaaaaaaaaa");
 		if(lista.isEmpty())
 			return ResponseEntity.noContent().build();
 		return new ResponseEntity<List<Usuario>>(lista,HttpStatus.OK);
